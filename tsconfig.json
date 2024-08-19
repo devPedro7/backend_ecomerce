@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "module": "ES6",
-    "moduleResolution": "Bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true
+    "target": "ES6",                         // Define a versão do JavaScript para ES6.
+    "allowJs": true,                        // Permite a inclusão de arquivos JavaScript.
+    "skipLibCheck": true,                   // Ignora a verificação de tipos em arquivos de declaração de biblioteca.
+    "strict": true,                         // Ativa todas as opções de verificação de tipos estritos.
+    "noEmit": true,                         // Impede a emissão de arquivos de saída.
+    "esModuleInterop": true,                // Permite a interoperabilidade entre módulos ES e CommonJS.
+    "allowSyntheticDefaultImports": true,   // Permite importações de módulos CommonJS usando a sintaxe `import`.
+    "module": "ES6",                        // Define o módulo para ES6.
+    "moduleResolution": "node",             // Resolve módulos de acordo com o Node.js.
+    "resolveJsonModule": true,              // Permite a importação de módulos JSON.
+    "isolatedModules": true,                // Trata cada arquivo como um módulo separado.
+    "jsx": "preserve",                     // Preserva o código JSX, necessário para projetos React.
+    "incremental": true                     // Habilita a compilação incremental.
   }
 }
