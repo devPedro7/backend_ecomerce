@@ -2,8 +2,6 @@
 
 <div align="center">
 
-[![SQLite](https://img.shields.io/badge/Sqlite-C92071?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-
 </div>
 
 ## Sobre
